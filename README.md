@@ -17,8 +17,6 @@ Scan for jobs and accept them if they are suitable.
   <dd>•	Breadcasting</dd>
 </dl>
 
-***
-
 ## This program has two parts: MainProgram and Server
 ### Server: contains .php files that output xml to the program
 <p>Server makes sure that only limited number of users can be online simultaneously. </p>
