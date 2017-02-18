@@ -1,0 +1,484 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+JobBot
+</name>
+</assembly>
+<members>
+<member name="T:JobBot.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.Calendar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.CalendarBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.ConnectBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.ConnectGIF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.ErrorGIF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.Finish">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.IBcursor">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.LoginBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.MainBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.NextB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.NextB1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.Remove">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.SearchGIF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.SearchSmallGIF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.StandbyGIF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.Start">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.StopB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.StopB1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:JobBot.My.Resources.Resources.WidgetBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:JobBot.MainForm.ChangeBackgrounsTransparent">
+ <summary>
+ List of BacroundToTransparent() tasks.
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.BacroundToTransparent(System.Object,System.Object)">
+ <summary>
+ Make the background of this object transparent
+ taking account parent objects (backround image)
+ </summary>
+ <param name="objName">Make the background of this object transparent</param>
+ <param name="parentObject">This is the background that must be shown when transparent</param>
+</member>
+<member name="M:JobBot.MainForm.ChangeCursor">
+ <summary>
+ Change IBeam cursor to custom white IBeam
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.SetLayer(System.Windows.Forms.Panel,System.Boolean)">
+ <summary>
+ Allows to change label visibility and text while in BackgroundWorker
+ </summary>
+ <param name="panel"></param>
+ <param name="visibility"></param>
+</member>
+<member name="M:JobBot.MainForm.Layers(System.String,System.Boolean)">
+ <summary>
+ Layer (Panel) switcher.
+ </summary>
+ <param name="layer">LOGIN, CONNECT, CALENDAR, MAIN, WIDGET</param>
+ <param name="visibility">True, False</param>
+</member>
+<member name="M:JobBot.MainForm.SetLabelTxt(System.String,System.Windows.Forms.Label,System.Boolean)">
+ <summary>
+ Allows to change label visibility and text while in BackgroundWorker
+ </summary>
+ <param name="errorValue"></param>
+ <param name="lbl"></param>
+ <param name="visibility"></param>
+</member>
+<member name="M:JobBot.MainForm.LayersError(System.String,System.Boolean,System.String)">
+ <summary>
+ Error Layer switcer.
+ Login, Main and WIDGET
+ </summary>
+ <param name="layer">LOGIN, CALENDAR, MAIN</param>
+ <param name="visibility">True False</param>
+ <param name="errorValue">Error string</param>
+</member>
+<member name="M:JobBot.MainForm.MainForm_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Establish window movement START
+ and original mouse start location
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.MainForm_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Establish window movement END
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.MainForm_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Move window. Change X and Y position acording to cursor location
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.cbAll_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ If checkbox ALL is checked then check all boxes
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.cbMedia_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ If checkbox uncheckt then unchecked checkbox ALL 
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.cbInRunning_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ If checkbox uncheckt then unchecked checkbox ALL 
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.cbResource_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ If checkbox uncheckt then unchecked checkbox ALL 
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.cbQC_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ If checkbox uncheckt then unchecked checkbox ALL 
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.cbUATTesting_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ If checkbox uncheckt then unchecked checkbox ALL 
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.cbBroadcasting_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ If checkbox uncheckt then unchecked checkbox ALL 
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.LoginToTheSite">
+ <summary>
+ Login to server and get loginCookie
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.RegisterUser">
+ <summary>
+ Register user with server
+ </summary>
+ <returns>True/False</returns>
+</member>
+<member name="M:JobBot.MainForm.CheckInUser">
+ <summary>
+ Let server know that I'm still running
+ </summary>
+ <returns>True/False</returns>
+</member>
+<member name="M:JobBot.MainForm.LoginDataCheck">
+ <summary>
+ Check if login information is filled
+ if not then let user know whats wrong
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:JobBot.MainForm.LogInBrowser">
+ <summary>
+ Login to all browsers
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.LogOffBrowser">
+ <summary>
+ Login from all browsers
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.LOGN">
+ <summary>
+ LOGIN task
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.bwLogin_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+ <summary>
+ LOGIN BackgroundWorker START
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.bwLogin_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+ <summary>
+ LOGIN BackgroundWorker has completed
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.ExitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exit program
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.MinimizeToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Minimize program (WIDGET)
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.MaximizeToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Maximize program (Full program)
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.pbAddTime_Click(System.Object,System.EventArgs)">
+ <summary>
+ Add selected start/end date/time!
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.pbRemoveTime_Click(System.Object,System.EventArgs)">
+ <summary>
+ Remove selected start/end date/time!
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.ButonStyle(System.Windows.Forms.PictureBox,System.String)">
+ <summary>
+ Change PictureBox button image 
+ </summary>
+ <param name="pictureBox">PictureBox</param>
+ <param name="button">Start, Stop</param>
+</member>
+<member name="M:JobBot.MainForm.CalendarInputCheck">
+ <summary>
+ Check if chosen date/time is correct
+ </summary>
+ <returns>True=correct | False=error</returns>
+</member>
+<member name="M:JobBot.MainForm.dtpStartDateTime_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ When Start date/time is changed Check if valid
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.dtpEndDateTime_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ When End date/time is changed Check if valid
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.WriteDateToFile">
+ <summary>
+ Write start/end DateTime to files start.txt and end.txt
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.ReadDateFromFile">
+ <summary>
+ Read start/end DateTime from files start.txt and end.txt
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.TimerCheckIn(System.Boolean)">
+ <summary>
+ Disables/Activates timeCheckIn and gives time Interval its value
+ </summary>
+ <param name="status">True/False</param>
+</member>
+<member name="M:JobBot.MainForm.TimerOnline(System.Boolean)">
+ <summary>
+ Disables/Activates timeOnline and gives timeLeftOnline its value
+ </summary>
+ <param name="status">True/False</param>
+</member>
+<member name="M:JobBot.MainForm.TimerOffline(System.Boolean)">
+ <summary>
+ Disables/Activates timeOffline and gives timeLeftOffline its value
+ </summary>
+ <param name="status">True/False</param>
+</member>
+<member name="M:JobBot.MainForm.timeOnline_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Check how long user is Offline
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.timeOffline_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Check how long user has been Online an can be
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.timeCheckIn_Tick(System.Object,System.EventArgs)">
+ <summary>
+ If user has missed 2 Check-Ins then logoff and cancel scan
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.AES_Encrypt(System.String)">
+ <summary>
+ Encrypt strings
+ </summary>
+ <param name="input">Original string</param>
+ <returns>Encrypted string</returns>
+</member>
+<member name="M:JobBot.MainForm.AES_Decrypt(System.String)">
+ <summary>
+ Decrypt strings
+ </summary>
+ <param name="input">Encrypted string</param>
+ <returns>Decrypted string</returns>
+</member>
+<member name="M:JobBot.MainForm.RUN">
+ <summary>
+ RUN tasks. While BackgroundWorker runs Check spider
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.CheckScanData">
+ <summary>
+ Check what tasks spider found
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.CheckUserChoices(System.Int32,System.DateTime,System.DateTime)">
+ <summary>
+ Check if user wants this TASK
+ </summary>
+ <param name="i">Task in array</param>
+ <param name="dateStart">Task starts</param>
+ <param name="dateEnd">Task ends</param>
+ <returns>Wants=True, Doesn't want=False</returns>
+</member>
+<member name="M:JobBot.MainForm.SetRichTextBoxTxt(System.String)">
+ <summary>
+ Allows to change RichTextBox text while in BackgroundWorker
+ </summary>
+ <param name="output">Add this string at the beginning of the RichTextBox</param>
+</member>
+<member name="M:JobBot.MainForm.bwScan_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+ <summary>
+ Spider Scan BackgroundWorker START
+ </summary>
+</member>
+<member name="M:JobBot.MainForm.bwScan_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+ <summary>
+ Spider Scan  BackgroundWorker has completed. Remove Shutdown error message.
+ </summary>
+</member>
+<member name="M:JobBot.Server.GetServerData(System.String)">
+ <summary>
+ Get variables from XML and server errors.
+ Chekin and register funktion. 
+ User exists = return 3
+ Chekin = return 2
+ Register = returne 1
+ ERROR = returne 0
+ Not valid XML Error = returne -1
+ XmlReader Error = returne -2
+ </summary>
+ <param name="URL">XML adress</param>
+ <returns></returns>
+</member>
+<member name="M:JobBot.Server.ReadSettings(System.Xml.XmlReader)">
+ <summary>
+ Read all settings from server
+ </summary>
+ <param name="reader">XmlReader</param>
+</member>
+<member name="M:JobBot.Server.ExitServer(System.String)">
+ <summary>
+ Exit from server. Remove user data from server.
+ </summary>
+ <param name="userID">Registerd user ID</param>
+</member>
+<member name="M:JobBot.Spider.ScanSite">
+ <summary>
+ Scan site for jobs
+ </summary>
+ <returns>If login cookie lost = False</returns>
+</member>
+<member name="M:JobBot.Spider.GetWebHTML">
+ <summary>
+ Get websites HTML code
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:JobBot.Spider.GetTableInfo">
+ <summary>
+ Get data from HTML tabel
+ </summary>
+</member>
+<member name="M:JobBot.Spider.ConvertTableInformation">
+ <summary>
+ Convert table times to required forms and get correct accept link code
+ </summary>
+</member>
+<member name="M:JobBot.Spider.CheckCookie(System.Object)">
+ <summary>
+ Check if login cookie is still valid
+ </summary>
+ <param name="strHTML">Sites HTML code</param>
+</member>
+<member name="M:JobBot.Spider.ClearArrays">
+ <summary>
+ Glear all arrays
+ </summary>
+</member>
+</members>
+</doc>
