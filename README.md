@@ -4,6 +4,7 @@ Scan for jobs and accept them if they are suitable.
 <p align="left">
   <img src="http://ouroborosrg.16mb.com/RG_GIF.gif" width="auto"/>
 </p>
+<a href="http://ouroborosrg.16mb.com/RG_GIF.gif">Backup GIF</a>
 ## This program allows users to accept automatically suitable job offers from betgenius, a site that posts them online. Bot accepts only those jobs that fit to users chosen criteria’s. 
 
 <dl>
